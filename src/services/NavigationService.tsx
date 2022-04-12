@@ -87,6 +87,6 @@ const data: RenderTree[] = [
 
 export const fetchData = async (): Promise<RenderTree[]> => {
   return new Promise(resolve => {
-    setTimeout(resolve, 100, data);
+    setTimeout(resolve, 800, data);
   });
 }
